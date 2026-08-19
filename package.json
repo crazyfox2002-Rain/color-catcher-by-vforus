@@ -1,9 +1,18 @@
 {
   "name": "color-catcher-vforus",
-  "private": true,
   "version": "0.1.0",
+  "description": "A browser-based color palette extractor for images, screenshots, video frames, and sampled points.",
+  "license": "MIT",
   "type": "module",
   "packageManager": "pnpm@11.19.0",
+  "homepage": "https://crazyfox2002-rain.github.io/color-catcher-by-vforus/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crazyfox2002-Rain/color-catcher-by-vforus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crazyfox2002-Rain/color-catcher-by-vforus/issues"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
