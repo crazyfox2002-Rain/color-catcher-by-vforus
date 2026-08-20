@@ -1,12 +1,27 @@
 # Color Catcher by VforUs
 
-A browser-based color palette extractor for images, screenshots, video frames, and sampled points.
+Capture the colors from screenshots, webpages, and video frames before the creative moment disappears.
 
-Color Catcher by VforUs turns visual references into copyable HEX, RGB, and HSL palettes. It runs entirely in the browser, so imported images are analyzed locally and do not need to be uploaded to a server.
+Color Catcher by VforUs turns visual references into copyable HEX, RGB, and HSL palettes. It is built for creators who find a useful look inside a frame, screenshot, poster, website, or AI video reference and want to turn it into practical color codes fast.
 
-> GitHub Pages demo: https://crazyfox2002-rain.github.io/color-catcher-by-vforus/
+> Try it now: https://crazyfox2002-rain.github.io/color-catcher-by-vforus/
 
 ![Color Catcher by VforUs preview](docs/color-catcher-preview.png)
+
+## Who It Is For
+
+- AI video creators who want to match the mood of a reference frame
+- Designers and brand builders who need a usable palette from screenshots, posters, webpages, or moodboards
+- Frontend developers who need CSS-ready color codes from visual references
+- Content creators making thumbnails, covers, decks, or social posts that need consistent color
+
+## Why It Helps
+
+- Grab the overall palette and exact sample-point colors in one place
+- Crop out irrelevant parts of a screenshot before analyzing the colors
+- Keep creative flow instead of switching into heavier design software
+- Work locally in the browser without uploading private reference images
+- Copy color codes or export a shareable PNG color card
 
 ## Features
 
@@ -22,14 +37,15 @@ Color Catcher by VforUs turns visual references into copyable HEX, RGB, and HSL 
 
 ## 中文介绍
 
-Color Catcher by VforUs 是一个纯前端画面取色工具。你可以导入图片、截图、网页画面或视频帧，它会在浏览器本地分析主色调，生成可复制、可导出的色卡。
+Color Catcher by VforUs 是一个面向创作者的画面取色工具。你可以导入图片、截图、网页画面或视频帧，它会在浏览器本地分析主色调，生成可复制、可导出的色卡。
 
 它适合这些场景：
 
-- 做 AI 视频或设计时，临时抓取参考画面的颜色
-- 从网页、海报、截图、视频帧里提取主色
-- 用滴管标记具体取样点，并一起复制色号
-- 生成标准 PNG 色卡，方便保存或分享
+- 做 AI 视频时，快速抓取参考帧的色彩氛围
+- 设计网页、海报、封面、缩略图时，从参考图里提取主色
+- 只分析截图里真正重要的一块区域，而不是整张图
+- 用滴管标记具体取样点，并和整组色号一起复制
+- 生成 PNG 色卡，方便保存、分享或放进创作流程
 
 ## How to Use
 
@@ -78,6 +94,19 @@ If you find this project on GitHub, you can use it in three ways:
 - Open the GitHub Pages demo and use it directly in the browser.
 - Clone the repository and run it locally with `pnpm install` and `pnpm run dev`.
 - Fork the repository if you want to customize the UI, add export formats, or build your own palette workflow.
+
+## Feedback
+
+Feedback is welcome:
+
+- Open an Issue for bugs, browser compatibility problems, or feature requests.
+- Start a Discussion for workflow ideas, palette-export needs, or creator use cases.
+
+Good feedback examples:
+
+- "I want to export palettes as CSS variables."
+- "Screen capture works in Chrome but not in my browser."
+- "I need a faster way to compare two reference frames."
 
 ## Privacy
 

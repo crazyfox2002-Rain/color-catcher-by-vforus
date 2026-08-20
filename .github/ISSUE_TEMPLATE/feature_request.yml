@@ -1,0 +1,40 @@
+name: Feature request
+description: Suggest a new workflow, export format, or improvement.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us what you are trying to do. Workflow context is more helpful than a feature name alone.
+  - type: textarea
+    id: workflow
+    attributes:
+      label: What workflow are you trying to improve?
+      placeholder: I use Color Catcher when making AI video references, and I want to...
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      placeholder: Right now I have to...
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Suggested solution
+      placeholder: It would help if Color Catcher could...
+    validations:
+      required: false
+  - type: checkboxes
+    id: audience
+    attributes:
+      label: Which use case does this relate to?
+      options:
+        - label: AI video or image generation
+        - label: Web or UI design
+        - label: Frontend development
+        - label: Social media, thumbnails, or covers
+        - label: Other creative workflow
